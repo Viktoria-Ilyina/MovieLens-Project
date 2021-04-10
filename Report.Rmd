@@ -271,9 +271,9 @@ $$RMSE = \sqrt{\sum_{i=1}^{n}\frac{(y_i - \hat{y_i})^2}{n}}$$
 
 Where:
 
--   $\hat{y_1}$, $\hat{y_2}$, $\dots$, $\hat{y_n}$ are predicted ratings
--   ${y_1}$, ${y_2}$,$\dots$, ${y_n}$ are true ratings
--   $n$ is the number of observations
+-   $\hat{y_1}$, $\hat{y_2}$, $\dots$, $\hat{y_n}$ are predicted ratings;
+-   ${y_1}$, ${y_2}$,$\dots$, ${y_n}$ are true ratings;
+-   $n$ is the number of observations.
 
 or
 
