@@ -538,7 +538,7 @@ Thus, Root Mean Square Error (RMSE) on 'validation' data is 0.8628443.
 
 # Conclusion and discussion
 
-The aim of the project was to develop and train a recommendation machine learning algorithm to predict a rating given by users to a movie in the dataset. To do that, we considered the impact of movies, users and genres to the ratings. The Residual Mean Square Error (RMSE) was used to evaluate the accuracy of the algorithm. The model with the best result is the 'Regularized movie, user and genre effect model' with an RMSE of 0.8628443.
+The aim of the project was to develop and train a recommendation machine learning algorithm to predict a rating given by users to a movie in the dataset. To do that, we considered the impact of movies, users and genres to the ratings. The Residual Mean Square Error (RMSE) was used to evaluate the accuracy of the algorithm. The model with the best result is the 'Regularized movie, user and genre effect model' with an RMSE 0.8628443.
 
 While this outcome is promising, future work could likely improve predictive performance in the following ways:
 
