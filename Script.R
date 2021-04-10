@@ -274,9 +274,9 @@ genres_averages <- training_genres %>%
   summarize(b_g = mean(rating - mu - b_i - b_u))
 
 predicted_ratings <- testing_genres %>%   
-  left_join(movie_averages, by = 'movieId') %>%
-  left_join(user_averages, by = 'userId') %>%
-  left_join(genres_averages, by = c('genres')) %>%
+  left_join(movie_averages, by = "movieId") %>%
+  left_join(user_averages, by = "userId") %>%
+  left_join(genres_averages, by = "genres") %>%
   mutate(pred = mu + b_i + b_u + b_g) %>%
   pull(pred)
 
